@@ -1,4 +1,4 @@
-I'm using a template for my website.
+I'm using this template for my website.
 
 == Template Description ==
 Template Name: iPortfolio
