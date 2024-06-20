@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,END]
-RewriteRule ^/?index\.html$ /portfolio [R=301,END]
-
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule (.*) /index.html/$1 [L]
